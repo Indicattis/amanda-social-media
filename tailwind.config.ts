@@ -16,5 +16,12 @@ const config: Config = {
     },
   },
   plugins: [],
+  colors: {
+    // neon_purple: "#5005f2",
+
+  },
+  fontFamily: {
+    // 'figtree': ['figtree'],
+  },
 };
 export default config;
