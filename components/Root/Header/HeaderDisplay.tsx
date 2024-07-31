@@ -20,7 +20,7 @@ function HeaderDisplay({ isActive, text }: HeaderDisplayProps) {
                     animate={"middle"}
                     exit={"end"}
 
-                    className="_text font-bold">
+                    className="_text _display_text ">
                     {text}
                 </motion.h1>
             </AnimatePresence>

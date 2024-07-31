@@ -2,11 +2,12 @@
 
 
 
+import { IconClearAll } from '@tabler/icons-react'
 import React from 'react'
 
 function HeaderLogo() {
   return (
-    <div>HeaderLogo</div>
+    <div><IconClearAll width={30} height={30}/></div>
   )
 }
 

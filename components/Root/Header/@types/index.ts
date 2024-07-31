@@ -5,4 +5,6 @@ export interface HeaderDisplayProps {
     isActive: boolean
 }
 
-export interface HeaderElements extends HTMLAttributes<HTMLDivElement>{}
+export interface HeaderElements extends HTMLAttributes<HTMLDivElement>{
+    isScrolled?: boolean
+}

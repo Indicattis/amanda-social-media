@@ -1,3 +1,4 @@
+import HeaderBody from "./HeaderBody";
 import HeaderDisplay from "./HeaderDisplay";
 import HeaderLinks from "./HeaderLinks";
 import HeaderLogo from "./HeaderLogo";
@@ -13,5 +14,6 @@ export const Header = {
     Logo: HeaderLogo,
     Display: HeaderDisplay,
     Navbar: HeaderNav,
-    Links: HeaderLinks
+    Links: HeaderLinks,
+    Body: HeaderBody
 }

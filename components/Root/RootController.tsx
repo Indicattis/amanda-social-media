@@ -6,7 +6,7 @@ import { IconCaretUpFilled } from '@tabler/icons-react'
 import React, { useEffect, useState } from 'react'
 import { Button } from '../utils/Button'
 import { AnimatePresence, motion } from 'framer-motion'
-import { scrollToTop } from 'react-scroll/modules/mixins/animate-scroll'
+import { scrollToTop } from '@/functions/scroll'
 
 function RootController() {
     const [isScrolled, setIsScrolled] = useState(false);
