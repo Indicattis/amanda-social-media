@@ -2,29 +2,35 @@
 function getColorRGB(variant: string | undefined) {
 
     switch (variant) {
-        case "default":
-            return `rgb(80 5 242)`
+        case "alfa_color":
+            return ``
             break;
-        case "purple":
-            return `linear-gradient(90deg, rgba(80,5,242,1) 37%, rgba(215,5,242,1) 100%)`
+        case "beta_color":
+            return ``
             break;
-        case "red":
-            return `rgb(255 0 102)`
+        case "text_color":
+            return ``
             break;
-        case "green":
-            return `rgb(104 254 154)`
+        case "contrast_text":
+            return ``
             break;
-        case "blue":
-            return `rgb(64 124 243)`
+        case "contrast_color_1":
+            return ``
             break;
-        case "gray":
-            return `rgb(161 161 170)`
+        case "contrast_color_2":
+            return ``
             break;
-        case "black":
-            return `rgb(0 0 0)`
+        case "contrast_color_3":
+            return ``
             break;
-        case "disabled":
-            return `rgb(21 28 54)`
+        case "contrast_color_4":
+            return ``
+            break;
+        case "background_color":
+            return ``
+            break;
+        case "background_aux":
+            return ``
             break;
         default:
             break;

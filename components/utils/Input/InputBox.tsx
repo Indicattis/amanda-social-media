@@ -1,19 +1,13 @@
-import { motion } from "framer-motion"
+import { InputElementProps } from "./@types"
 
 
-interface InputBoxProps {
-    placehoder: string
-    onChange: React.Dispatch<React.SetStateAction<string>>
-    disabled?: boolean
-    value?: string
-}
 
 
-export function InputBox({ placehoder, onChange, disabled, value}: InputBoxProps) {
+export function InputBox({ placehoder, disabled, value, ...rest}: InputElementProps) {
     return (
-        <motion.input 
+        <input 
+        {...rest}
         className="h-full _text w-full outline-none bg-purple px-3  overflow-hidden relative"
-        onChange={(e) => onChange(e.target.value)}
         placeholder={placehoder}
         disabled={disabled}
         value={value}

@@ -1,14 +1,8 @@
 import { InputHTMLAttributes } from "react"
+import { InputElementProps } from "./@types"
 
 
-interface InputBoxNumber  extends InputHTMLAttributes<HTMLInputElement> {
-    placehoder: string
-    disabled?: boolean
-    value?: string
-}
-
-
-export function InputBoxNumber({ placehoder, disabled, value, ...rest}: InputBoxNumber) {
+export function InputBoxNumber({ placehoder, disabled, value, ...rest}: InputElementProps) {
     return (
         <input 
         {...rest}

@@ -1,15 +1,15 @@
-import { Fade, Slide } from "@/static/animations"
-import { AnimatePresence, motion } from "framer-motion"
-
-
-interface DisplayTextProps {
-    text: string,
-    isActive: boolean
-}
 
 
 
-export default function DisplayText({ isActive, text }: DisplayTextProps) {
+
+import React from 'react'
+import { HeaderDisplayProps } from './@types'
+import { AnimatePresence, motion } from 'framer-motion'
+import { Fade } from '@/static/animations'
+
+
+
+function HeaderDisplay({ isActive, text }: HeaderDisplayProps) {
     return (
         isActive && (
             <AnimatePresence>
@@ -27,3 +27,5 @@ export default function DisplayText({ isActive, text }: DisplayTextProps) {
         )
     )
 }
+
+export default HeaderDisplay

@@ -1,18 +1,6 @@
+import { InputElementProps } from "./@types"
 
-
-
-
-import { InputHTMLAttributes } from "react"
-
-
-interface InputBoxMailProps  extends InputHTMLAttributes<HTMLInputElement> {
-    placehoder: string
-    disabled?: boolean
-    value?: string
-}
-
-
-export function InputBoxMail({ placehoder, disabled, value, ...rest}: InputBoxMailProps) {
+export function InputBoxMail({ placehoder, disabled, value, ...rest}: InputElementProps) {
     return (
         <input 
         type="mail"

@@ -1,24 +1,19 @@
 
-import { Layout } from "@/components/Layouts";
 import { Root } from "@/components/Root";
-import { ToastContainer } from "react-toastify";
 
 export default function Home() {
   return (
-    <Root.Body className="min-h-screen">
+    <Root.Main className="min-h-screen" id="top">
       <Root.Header />
-      {/* <HeaderComponent/> */}
       <Root.Content className="">
-        E ai AMandinha!222
       </Root.Content>
-      <Root.Controller/>
       <Root.Footer />
-      <ToastContainer
+      {/* <ToastContainer
         draggable 
         position="top-center"
         closeOnClick
         hideProgressBar
-        theme="dark"/>
-    </Root.Body>
+        theme="dark"/> */}
+    </Root.Main>
   );
 }

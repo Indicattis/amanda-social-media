@@ -35,7 +35,7 @@ export default function BreadCrumbs({ itens, isActive }: BreadCrumbsProps) {
                             <p className={`
                     ${isRoot ? "text-white" : ""}
                         hover:text-white cursor-pointer rounded-md
-                        `} onClick={() => window.location.href = "/"}>Home</p>
+                        `} onClick={() => window.location.href = "/"}>Início</p>
 
                             {!isRoot && (
                                 <span>

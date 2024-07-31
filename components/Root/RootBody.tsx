@@ -1,18 +1,10 @@
-import { ReactNode } from "react"
+import { RootElementsProps } from "./@types"
 
 
 
-interface RootBodyProps {
-    className: string
-    children: ReactNode
-}
-
-
-
-export default function RootBody({children, className}: RootBodyProps) {
+export default function RootMain({...props}: RootElementsProps) {
     return (
-        <main id="top" className={className}>
-            {children}
+        <main {...props}>
         </main>
     )
 }

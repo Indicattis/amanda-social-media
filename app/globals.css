@@ -42,5 +42,61 @@ body {
 } */
 
 
+/* ==========================================   DEFAULT   =============================================== */
+
+
+html {
+  font-size: 100%;
+  line-height: 100%
+}
+
 
 /* ==========================================   CUSTOM   =============================================== */
+
+
+._text {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+._text._small {
+  font-size: 0.8rem;
+  line-height: 1rem;
+  letter-spacing: 0.01rem;
+}
+
+._display_text {
+  font-size: 1.6rem;
+  letter-spacing: -0.05em;
+  font-weight: bold;
+  line-height: 1.25rem;
+}
+
+._display_text._biggest {
+  font-size: 3rem;
+  letter-spacing: -0.05em;
+  font-weight: bold;
+  line-height: 2.75rem;
+}
+
+/* ==========================================   MEDIA   =============================================== */
+
+
+
+@media (max-width: 1024px) {
+
+  html {
+    font-size: 93%;
+    line-height: 93%
+  }
+  
+}
+
+@media (max-width: 768px) {
+
+  html {
+    font-size: 87%;
+    line-height: 87%
+  }
+  
+}
